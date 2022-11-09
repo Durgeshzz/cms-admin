@@ -1,0 +1,76 @@
+.file-manager-iframe {
+    width: 100%;
+    vertical-align: bottom;
+  }
+  
+  .file-manager {
+    background: #f9f9f9;
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  .file-manager #notification-toast {
+    bottom: 0;
+  }
+  .file-manager .dataTable .btn {
+    padding: 10px 16px 8px;
+  }
+  .file-manager .dataTable .btn > i {
+    margin-top: 5px;
+  }
+  
+  .media-picker-modal {
+    padding-right: 0 !important;
+    z-index: 1050;
+  }
+  .media-picker-modal > i {
+    margin-right: 5px;
+  }
+  .media-picker-modal .modal-dialog {
+    width: auto;
+    margin: 25px auto;
+  }
+  .media-picker-modal .modal-content {
+    margin: auto;
+    float: none;
+    border: 1px solid #d2d6de;
+    border-radius: 3px;
+  }
+  .media-picker-modal .modal-header {
+    padding: 6px 15px;
+    background: #f1f1f1;
+  }
+  .media-picker-modal .modal-header > .close {
+    margin-top: 5px;
+    -webkit-text-stroke: 0;
+    -webkit-transition: 200ms;
+    transition: 200ms;
+  }
+  .media-picker-modal .modal-body {
+    background: #f9f9f9;
+    padding: 15px 0;
+  }
+  .media-picker-modal .modal.fade .modal-dialog {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    opacity: 0;
+    -webkit-transition: 200ms ease-in-out;
+    transition: 200ms ease-in-out;
+  }
+  .media-picker-modal .modal.fade .modal-dialog.in .modal-dialog {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .media-picker-modal .modal-dialog {
+      margin: 10px;
+    }
+  }
+
+  .react-responsive-modal-modal{
+    max-height: 700px;
+    min-width: 70%;
+    padding: 0;
+    overflow-y: scroll;
+  }
